@@ -224,6 +224,10 @@ nav {
   padding-left: 0.7em;
 }
 
+.stores__div a:focus{
+  border: 1px solid #005BD3;
+}
+
 .stores__div:hover {
   background-color: #f0f0f0;
   cursor: pointer;
@@ -325,6 +329,10 @@ hr {
   border: none;
   border-radius: 8px;
   color: #323232;
+}
+
+.extend_plans a:focus{
+  border: 1px solid #005BD3;
 }
 
 .mobile-close-svg{
@@ -650,6 +658,20 @@ a {
   cursor: pointer;
 }
 
+.ac-small div button:focus,
+.ac-large div button:focus,
+.ac-larger div button:focus,
+.ac-largest div button:focus {
+  border: 1px solid #005BD3;
+}
+
+.ac-small div button:hover,
+.ac-large div button:hover,
+.ac-larger div button:hover,
+.ac-largest div button:hover {
+  background-color: #2A2A2A;
+}
+
 .button-flex button {
   background-color: #404040;
   border: 1px solid #ffffff33;
@@ -661,6 +683,10 @@ a {
   font-size: 12px;
   padding: 8px 3px;
   cursor: pointer;
+}
+
+.button-flex button:focus{
+  border: 1px solid #005BD3;
 }
 
 article.ac-small img {
